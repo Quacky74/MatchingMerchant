@@ -1,0 +1,51 @@
+{
+    "name": "NC",
+    "maps": [
+        {
+            "name": "Matching",
+            "id": "87101acd-5903-47c3-aea5-efef435b9928",
+            "actions": [
+                {
+                    "name": "draw",
+                    "type": "Button",
+                    "id": "ffc0985b-8680-43df-815f-9d4649a72c30",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1c7629e2-c551-448f-b968-863838689c68",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "draw",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
